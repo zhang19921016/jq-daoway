@@ -1,0 +1,294 @@
+body {
+/*https://www.daoway.cn*/
+  color: #333;
+  background: #f8f8f8;
+  font: 14px/1.14 "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体";
+}
+body .htit {
+  margin: 10px auto 0;
+  background: #fff;
+}
+body .htit .inner {
+  width: 1200px;
+  height: 140px;
+  line-height: 140px;
+  margin: 0 auto;
+}
+body .htit .inner .h-left {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 120px;
+}
+body .htit .inner .h-left b {
+  font-size: 36px;
+  font-weight: 700;
+}
+body .htit .inner .h-left span {
+  margin-left: 10px;
+  color: #929292;
+}
+body .htit .inner .h-right {
+  float: right;
+  height: 120px;
+  margin-top: 15px;
+}
+body .htit .inner .h-right li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 52px;
+}
+body .htit .inner .h-right li span {
+  display: block;
+  color: #e84b47;
+}
+body .htit .inner .h-right li em {
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  color: #e5e5e5;
+}
+body .navtit {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #323434;
+}
+body .navtit ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .navtit ul li {
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+body .navtit ul li.active {
+  background: #424242;
+}
+body .content {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 22px;
+  overflow: hidden;
+}
+body .content .c-left {
+  width: 960px;
+  background: #fff;
+  float: left;
+  margin-bottom: 50px;
+}
+body .content .c-left h3 {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 3%;
+  height: 60px;
+  line-height: 60px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e5e5e5;
+  background: #fff;
+  overflow: hidden;
+}
+body .content .c-left h3 span {
+  font-size: 16px;
+  color: #121212;
+  padding-bottom: 16px;
+  cursor: pointer;
+  margin: 0;
+  border-bottom: 4px solid #fb474f;
+}
+body .content .c-left .boxTab {
+  transition: color 0.5s;
+  color: #fff;
+}
+body .content .c-left .boxTab .c-l-top {
+  border-bottom: 1px solid #e5e5e5;
+  cursor: pointer;
+  height: 200px;
+}
+body .content .c-left .boxTab .c-l-top .pic {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border: 1px solid #e5e5e5;
+  margin: 25px;
+}
+body .content .c-left .boxTab .c-l-top .text {
+  width: 64%;
+  float: left;
+  position: relative;
+  top: 25px;
+}
+body .content .c-left .boxTab .c-l-top .text span {
+  display: block;
+  line-height: 42px;
+  height: 42px;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 99%;
+}
+body .content .c-left .boxTab .c-l-top .text .color {
+  font-size: 18px;
+  color: #1d1515;
+}
+body .content .c-left .boxTab .c-l-top .text .price {
+  margin-top: 20px;
+}
+body .content .c-left .boxTab .c-l-top .text .price b {
+  font-size: 30px;
+  color: #fc545e;
+  font-weight: 700;
+}
+body .content .c-left .boxTab .c-l-top .text .price .oldpic {
+  font-size: 14px;
+  color: #898989;
+  margin-left: 40px;
+  font-weight: normal;
+}
+body .content .c-left .boxTab .c-l-top .text .price .oldpic em {
+  text-decoration: line-through;
+}
+body .content .c-left .boxTab .c-l-top .spf {
+  float: right;
+  margin: 20px 60px 0 0;
+  margin-top: 150px;
+  color: #929292;
+}
+body .content .c-left .filler {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  background: #f8f8f8;
+  height: 70px;
+}
+body .content .c-left .info {
+  width: 100%;
+}
+body .content .c-left .info .info-title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 10px 25px;
+}
+body .content .c-left .info .info-title img {
+  width: 48px;
+  height: 18px;
+}
+body .content .c-left .info p {
+  line-height: 28px;
+  margin: 10px 25px 25px;
+  font-size: 16px;
+}
+body .content .c-left .smallFiller {
+  width: 100%;
+  border-top: 10px solid #f8f8f8;
+}
+body .content .c-left .r-title em {
+  color: #121212;
+  margin-left: 15px;
+}
+body .content .c-left .ratings .conmentss {
+  width: 96%;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 3%;
+  padding-top: 20px;
+}
+body .content .c-left .ratings .conmentss .touxiang {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  display: inline-block;
+  vertical-align: top;
+}
+body .content .c-left .ratings .conmentss ul {
+  display: inline-block;
+  margin-left: 20px;
+  width: 92%;
+}
+body .content .c-left .ratings .conmentss ul li {
+  border: none;
+  width: auto;
+  height: auto;
+  display: block;
+  float: none;
+  padding: 0;
+  line-height: 28px;
+  margin: 0;
+}
+body .content .c-left .ratings .conmentss ul li em {
+  font-size: 12px;
+}
+body .content .c-left .ratings .conmentss ul .commentdetail {
+  line-height: 26px;
+  font-size: 16px;
+}
+body .content .c-left .ratings .conmentss ul .commentimg {
+  height: 20px;
+  color: #898989;
+}
+body .content .c-left .pageBox {
+  width: 100%;
+  margin: 0 auto;
+  height: 152px;
+  text-align: center;
+}
+body .content .c-left .pageBox a {
+  display: inline-block;
+  width: 80px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 0;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  margin: 50px 5px;
+}
+body .content .c-left .pageBox .pageNav {
+  display: inline-block;
+}
+body .content .c-left .pageBox .pageNav a {
+  display: inline-block;
+  width: 32px;
+}
+body .content .c-left .pageBox .pageNav a.active {
+  background: #fe454a;
+  color: #fff;
+}
+body .content .c-right {
+  width: 230px;
+  float: right;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  text-align: center;
+}
+body .content .c-right .erweima1 {
+  width: 230px;
+  height: 290px;
+  margin-top: 0;
+  padding-top: 50px;
+  background: url("https://www.daoway.cn/pcimages/fuwushang2_07.jpg");
+}
+body .content .c-right .erweima1 img {
+  width: 115px;
+  height: 115px;
+}
+body .content .c-right .erweima2 {
+  width: 230px;
+  height: 290px;
+  background: url("https://www.daoway.cn/pcimages/fuwushang2_10.jpg");
+  margin-top: 10px;
+}
+body .content .c-right .erweima2 img {
+  margin: 50px 0 0 0;
+  text-align: center;
+  width: 115px;
+  height: 115px;
+}
